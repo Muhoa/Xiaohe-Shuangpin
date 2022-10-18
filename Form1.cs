@@ -1,16 +1,6 @@
-﻿using Little_Crane_Shuangpin.Properties;
-using Microsoft.Win32;
+﻿using Microsoft.Win32;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Runtime;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Little_Crane_Shuangpin
 {
@@ -116,7 +106,7 @@ namespace Little_Crane_Shuangpin
 
             if (EnableExtraDomainType == "00000001" || Enable_Double_Pinyin == "00000001" || DoublePinyinScheme == "10")
             {
-                LinkTipText.Text = "微软拼音推荐设置方案";
+                //LinkTipText.Text = "微软拼音推荐设置方案";
                 //LinkTipText.Visible = true;
                 return "成功,小鹤双拼现在为默认";
             }
